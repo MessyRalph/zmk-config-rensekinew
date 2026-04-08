@@ -1,0 +1,5 @@
+config SHIELD_RENSEKI_LEFT
+    def_bool $(shields_list_contains,renseki_left)
+
+config SHIELD_RENSEKI_RIGHT
+    def_bool $(shields_list_contains,renseki_right)
