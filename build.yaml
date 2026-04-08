@@ -1,5 +1,2 @@
-include:
-  - board: nice_nano_v2
-    shield: renseki_left
-  - board: nice_nano_v2
-    shield: renseki_right
+board: [ "nice_nano_v2" ]
+shield: [ "renseki_left", "renseki_right" ]
